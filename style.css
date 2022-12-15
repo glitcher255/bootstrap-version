@@ -323,6 +323,7 @@ ul {
 
     .recent_work_text {
         max-width: fit-content;
+        width: 85%;
     }
 
     .top_container_primary {
@@ -338,6 +339,7 @@ ul {
 
     .top_container {
         flex-direction: column-reverse;
+        height: 600px;
     }
 
     .top_icons {
@@ -346,7 +348,6 @@ ul {
 
     .tech_container {
         flex-direction: column;
-        align-items: center;
     }
 
     .form_container {
@@ -381,4 +382,23 @@ ul {
         display: flex;
     justify-content: center;
     }
+
+    .about_me_text {
+        padding-left: 30px;
+    }
+
+    .mobile_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .orange_one {
+        position: relative;
+        left: 0;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
  }
